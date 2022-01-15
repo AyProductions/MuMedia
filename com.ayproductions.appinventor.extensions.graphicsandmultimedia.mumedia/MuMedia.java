@@ -1,5 +1,6 @@
 package com.ayproductions.appinventor.extensions.graphicsandmultimedia.mumedia;
 
+import android.Manifest;
 import android.app.Activity;
 import android.content.Context;
 import com.google.appinventor.components.annotations.*;
@@ -7,6 +8,11 @@ import com.google.appinventor.components.common.ComponentCategory;
 import com.google.appinventor.components.runtime.AndroidNonvisibleComponent;
 import com.google.appinventor.components.runtime.ComponentContainer;
 import com.google.appinventor.components.runtime.EventDispatcher;
+import android.graphics.Bitmap;
+import android.media.MediaPlayer;
+import android.os.Bundle;
+import android.os.Environment;
+import android.widget.Toast;
 
 @DesignerComponent(
         version = 1,
